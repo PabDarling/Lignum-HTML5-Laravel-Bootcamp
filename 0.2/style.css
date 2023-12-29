@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.header {
+    text-align: center;
+    width: 100%;
+    background-color: magenta;
+    position: relative;
+    font-size: 46px;
+}
+
+.navigation {
+    text-align: left;
+    background-color: lightblue;
+    position: relative;
+    font-size: 12px;
+}
+
+.content {
+    text-align: center;
+    background-color: rgb(224, 224, 12);
+    font-size: 14px;
+    align-items: center;
+}
+
+.sidebar {
+    text-align: right;
+    background-color: magenta;
+    position: relative ;
+    font-size: 10px;
+    right: 0px;
+}
+
+.middle {
+    width: 100%;
+}
+
+.navigation, .content, .sidebar {
+    width: 33%;
+    display: inline-block;
+    justify-content: space-between;
+    vertical-align: top;
+}
+
+.footer {
+    text-align: center;
+    width: 100%;
+    background-color: magenta;
+    clear: both;
+    font-size: 10px;
+}
+
+.header, .content, .footer, .navigation, .sidebar {
+    font-weight: 600;
+}
